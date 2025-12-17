@@ -1,0 +1,24 @@
+@use './config' as config;
+@use '../../node_modules/utopia-core-scss/src/utopia' as utopia;
+
+
+:root {
+  @include utopia.generateSpaceScale(
+    (
+      "minWidth": 600,
+      "maxWidth": 1280,
+      "minSize": 16,
+      "maxSize": 20,
+      "positiveSteps": (1.5, 2, 3, 4, 6),
+      "negativeSteps": (0.75, 0.5, 0.25),
+      "customSizes": (
+        's-3xl',
+        's-2xl',
+        's-xl',
+        's-l'
+      ),
+      "prefix": "space-",
+      "relativeTo": "viewport-width",
+    )
+  );
+}
