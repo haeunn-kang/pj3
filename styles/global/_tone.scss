@@ -2,9 +2,9 @@
 $point-100: #ECF4F1;
 $point-200: #CFE3DB;
 $point-300: #96BAB2;
-$point-400: #7DAA98;
-$point-500: #508E82;
-$point-800: #146C5E;
+$point-400: #508E82;
+$point-500: #316259;
+$point-800: #0f5146;
 
 $gray-0:  #FFFFFF;
 $gray-100: #F1F2F2;
@@ -13,17 +13,3 @@ $gray-900:#121212;
 
 $color-bg: $gray-0;
 $color-text: $gray-900;
-
-
-$tones: (
-  "point": (
-    100: $point-100,
-    200: $point-200,
-    500: $point-500,
-    800: $point-800
-  ),
-  "gray": (
-    0: $gray-0,
-    900: $gray-900
-  )
-);

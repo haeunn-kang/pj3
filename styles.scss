@@ -218,7 +218,7 @@
 
 
 .process {
-  padding-block: clamp(3rem, 6rem);
+  padding-block: clamp(3rem, 6vw, 6rem);
 }
 
 .process__grid {
@@ -313,7 +313,6 @@ html {
 }
 
 .sticky {
-  border-left: .0625rem solid tone.$gray-200;
   background-color: tone.$color-bg;
     
   position: sticky;
