@@ -62,18 +62,12 @@
 }
 
 .hero {
-  background-color:tone.$point-800;
-  min-height: 80vh;
-  display: flex;
+  background-image: url("./assets/hero-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  padding: 3.75rem 1.25rem;
-  overflow: hidden;
-
-  position: relative;
+  color: tone.$gray-0;
   }
 .hero__inner {
   max-width: 640px;
@@ -224,7 +218,7 @@
 
 
 .process {
-  padding-block: clamp(3rem, 6vw, 6rem);
+  padding-block: clamp(3rem, 6rem);
 }
 
 .process__grid {
@@ -235,7 +229,7 @@
   @media (max-width: 900px) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  @media (max-width: 520px) {
+  @media (max-width: 500px) {
     grid-template-columns: 1fr;
   }
 }
@@ -253,9 +247,8 @@
   margin-bottom: 1rem;
 }
 .process__name {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 0.4rem;
 }
 .process__desc {
   line-height: 1.6;
@@ -278,10 +271,8 @@
   padding: 0.6em 1.2em;
   border-radius: 10rem;
 
-  background: tone.$point-200;
+  background: tone.$point-300;
   white-space: nowrap;
-
-  box-shadow: 0 .125rem .375rem rgba(0,0,0,0.1);
 
   text-decoration: none;
   color: inherit;
@@ -302,7 +293,7 @@
 }
 
 
-/// pages-smell
+/// pages
 
 html {
   scroll-behavior: smooth;
