@@ -361,7 +361,7 @@ ins {
 }
 
 .wrap {
-  --about-max-width: 60rem;
+  --about-max-width: 75rem;
   --gutter: clamp(1rem, 4vw, 3rem);
   max-width: var(--about-max-width);
   margin-inline: auto;
@@ -487,7 +487,7 @@ html {
 }
 
 .doc {
-  max-width: 60rem;
+  max-width: 75rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 15rem;
@@ -537,6 +537,22 @@ html {
 }
 .prose > :is(p) + :is(ul, ol, blockquote, figure) {
   margin-top: var(--space-xs);
+}
+
+.intro-image {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-xl);
+}
+
+.intro-image img {
+  width: 100%;
+  max-width: 75rem;
+  height: auto;
+  display: block;
 }
 
 @media (max-width: 600px) {
