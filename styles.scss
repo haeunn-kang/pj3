@@ -227,14 +227,6 @@
   align-items: center;
   text-align: center;
   }
-.process__name {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.process__desc {
-  line-height: 1.6;
-  opacity: 0.8;
-}
 
 
 .card__image {
@@ -267,13 +259,13 @@
   }
 }
 
-.section--spacer1 {
+.spacer1 {
   padding-block: 3rem;
 }
-.section--spacer2 {
+.spacer2 {
   padding-block: 1rem;
 }
-.section--spacer3 {
+.spacer3 {
   padding-block: 0.5rem;
 }
 
