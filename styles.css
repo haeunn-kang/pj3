@@ -123,9 +123,9 @@ textarea:not([rows]) {
   --leading-s: 1.4;
   --leading-m: 1.6;
   --leading-l: 1.8;
-  --font-regular: 400;
-  --font-medium: 500;
-  --font-bold: 700;
+  --font-regular: 300;
+  --font-medium: 400;
+  --font-bold: 600;
   --font-black: 900;
 }
 
@@ -279,15 +279,6 @@ ins {
 }
 .hero__inner p br {
   display: inline;
-}
-
-.scroll-arrow {
-  position: absolute;
-  left: 50%;
-  bottom: 2rem;
-  transform: translateX(-50%);
-  font-size: 1.5rem;
-  color: #FFFFFF;
 }
 
 .question {

@@ -86,16 +86,6 @@
   }
 }
 
-.scroll-arrow {
-  position: absolute;
-  left: 50%;
-  bottom: 2rem;
-  transform: translateX(-50%);
-
-  font-size: 1.5rem;
-  color: tone.$gray-0;
-}
-
 .question {
   background: tone.$gray-900;
   color: tone.$gray-0;
