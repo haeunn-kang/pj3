@@ -474,6 +474,10 @@ ins {
   padding-block: 1rem;
 }
 
+.section--spacer3 {
+  padding-block: 0.5rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
